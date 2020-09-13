@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from redfin_information_searching_scrapy.redfin_information_searching_scrapy.items import \
+from redfin_information_searching_scrapy.items import \
     RedfinInformationSearchingScrapyItem
 import pandas as pd
 from pandas import ExcelWriter
